@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cssreset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Soartis Mineradora</title>
 </head>
@@ -19,18 +21,19 @@
                 <img class="menu-opener" src="assets/images/menu.png" />
                 <nav>
                     <ul>
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">Sobre nós</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Nossos Produtos</a></li>
-                        <li><a href="">Contato</a></li>        
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobrenos">Sobre nós</a></li>
+                        <li><a href="#objetivos">Objetivos da empresa</a></li>
+                        <li><a href="#produtos">Nossos Produtos</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>        
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="home">
             <div class="sliders" style="margin-left:0;">
                 <div class="slide">
                     <div class="slidearea">
@@ -58,13 +61,18 @@
                 <div class="pointer"></div>
             </div>
         </section>
-        <section class="default light">
+        <section class="default light" id="sobrenos">
             <div class="section-title">Sobre nós</div>
             <div class="section-desc">Quem somos nós?</div>
             <div class="section-body">
                 <div class="section-aboutus">
                     <div class="section-aboutus--left">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod. Morbi ex felis, tincidunt sed hendrerit finibus, malesuada eu urna. Sed rutrum sodales mi a varius.</p>
+                        <p>A Soatis Mineradora LTDA iniciou suas atividades em 07 de dezembro de 2017, extraindo gemas (pedras preciosas e semipreciosas), 
+                            areias, cascalho ou pedregulho, pedras ornamentais e  benefeciamento associado. 
+                            Nós da Soartis Mineradora, investimos em equipamentos e caminhões de última geração e profissionais altamente qualificados para 
+                            possibilitar a melhor qualidade dos nossos produtos. Nossa equipe técnica é preparada e especializada e segue à risca as 
+                            principais normas técnicas estabelecidas.
+                        </p>
                         <br/>
                         <a href="" class="button">Saber mais</a>
                     </div>
@@ -74,49 +82,34 @@
                 </div>
             </div>
         </section>
-        <section class="default dark">
-            <div class="section-title">Services</div>
-            <div class="section-desc">Services that we provide</div>
+        <section class="default dark" id="objetivos">
+            <div class="section-title">Objetivos</div>
+            <div class="section-desc">Nossa Missão, Visão e Valor</div>
             <div class="section-body">
                 <div class="section-services">
                     <div class="section-service">
-                        <img src="assets/images/medalha.png" />
-                        <h4>High Quality Design</h4>
-                        <p>Donec tincidunt cursus</p>
+                        <h4>Missão</h4>
+                        <p>Transformar recursos naturais em produtos ideais para qualquer tipo de construção,
+                             seguindo as normas de proteção ao meio ambiente.</p>
                     </div>
                     <div class="section-service">
-                        <img src="assets/images/estrela.png" />
-                        <h4>Modern Design</h4>
-                        <p>Morbi ex felis, tincidunt sed hendrerit</p>
+                        <h4>Visão</h4>
+                        <p>Criar e cultivar valores sustentáveis para nossa empresa, através das melhores práticas em mineração e do nosso compromisso, 
+                            com a proteção da saúde e bem-estar dos empregados, meio ambiente e comunidades onde trabalhamos.</p>
                     </div>
                     <div class="section-service">
-                        <img src="assets/images/relogio.png" />
-                        <h4>Regular Updates</h4>
-                        <p>Donec tincidunt cursus</p>
-                    </div>
-                    <div class="section-service">
-                        <img src="assets/images/balao.png" />
-                        <h4>Fast and free support</h4>
-                        <p>Morbi ex felis, tincidunt sed</p>
+                        <h4>Valores</h4>
+                        <p>Compromisso e respeito pelos colaboradores, parceiro, clientes e pelo meio ambiente, sempre colocando a vida em primeiro lugar, 
+                            valorizando quem faz a empresa para que possamos cresce e evoluir juntos.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="default light">
-            <div class="section-title">Our Projects</div>
-            <div class="section-desc">What we create</div>
+        <section class="default light" id="produtos">
+            <div class="section-title">Nossos Produtos</div>
+            <div class="section-desc">Produtos comercializados</div>
             <div class="section-body">
                 <div class="section-projects">
-                    <div class="section-projects--filters">
-                        <ul>
-                            <li>All</li>
-                            <li class="active">Photos</li>
-                            <li>Branding</li>
-                            <li>Adverts</li>
-                            <li>Development</li>
-                            <li>Misc</li>
-                        </ul>
-                    </div>
                     <div class="section-projects--photos">
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
@@ -228,11 +221,11 @@
                         </div>
                     </div>
     
-                    <a href="" class="button">More Projects</a>
+                    <a href="" class="button">Conheça mais!</a>
                 </div>
             </div>
         </section>
-        <section class="default dark bg-team">
+        <section class="default dark bg-team" id="servicos">
             <div class="section-team-area">
                 <div class="section-title">Our Team</div>
                 <div class="section-desc">Our Co-Workers</div>
@@ -302,7 +295,7 @@
                 </div>
             </div>
         </section>
-        <section class="default light">
+        <section class="default light" id="contato">
             <div class="section-title">Contact Us</div>
             <div class="section-desc">Our Agency Located in Melbourne, Australia</div>
             <div class="section-body">
@@ -342,6 +335,9 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 
 </html>
