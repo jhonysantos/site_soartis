@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/cssreset.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="logo.ico">
     <title>Soartis Mineradora</title>
 </head>
 
@@ -15,7 +16,7 @@
     <header>
         <div class="header">
             <div class="logo">
-                <img src="logo.png" width="80px" height="80px" />
+                <a href="#home"><img src="logo.png" width="80px" height="80px" /></a>
             </div>
             <div class="menu">
                 <img class="menu-opener" src="assets/images/menu.png" />
@@ -39,7 +40,7 @@
                     <div class="slidearea">
                         <h1>Soartis<br /><span>Mineradora</span></h1>
                         <h2>Telefone: +55 (61) 9 9672-1681</h2>
-                        <a href="" class="button">Entrar em contato!</a>
+                        <a href="tel:+5561996721681" class="button">Entrar em contato!</a>
                     </div>
                 </div>
                 <div class="slide">
@@ -75,7 +76,7 @@
                             principais normas técnicas estabelecidas.
                         </p>
                         <br />
-                        <a href="" class="button">Saber mais</a>
+                        <a href="tel:+5561996721681" class="button">Saber mais</a>
                     </div>
                     <div class="section-aboutus--right">
                         <img src="assets/images/imagem2.JPG" />
@@ -196,7 +197,7 @@
                             </div>
                         </div>
 
-                        <a href="" class="button">Conheça mais!</a>
+                        <a href="tel:+5561996721681" class="button">Conheça mais!</a>
                     </div>
                 </div>
         </section>
@@ -212,7 +213,7 @@
                                 temos um auto rigor no processo de produção e estoque, respeito ao Meio ambiente e somo uma empresa sólida de confiança.
                             </p>
                             <br />
-                            <a href="" class="button">Saber mais</a>
+                            <a href="tel:+5561996721681" class="button">Saber mais</a>
                         </div>
                         <div class="section-aboutus--right">
                             <img src="assets/images/imagem3.JPG" />
@@ -227,15 +228,11 @@
             <div class="section-desc">Entre em contato conosco e peça seu orçamento!</div>
             <div class="section-body">
                 <div class="section-contact">
-                    <form method="POST">
-                        <div class="section-contact--split">
-                            <input type="text" name="name" placeholder="NAME" />
-                            <input type="text" name="name" placeholder="EMAIL" />
-                        </div>
-                        <input type="text" name="name" placeholder="SUBJECT" />
-                        <textarea name="message" placeholder="MESSAGE"></textarea>
-                        <input type="submit" value="Send Message" class="button" />
-                    </form>
+                    Soartis Mineradora LTDA - Minas Gerais - MG<br/><br/>
+                    CNPJ: 29225797/0001-07<br/><br/>
+                    Telefone: (61) 9 9970-2874<br/><br/>
+                    E-mail: contato@soartismineradora.com.br<br/><br/>
+                    <a href="tel:+5561996721681" class="button">Entre em contato</a>
                 </div>
             </div>
         </section>
@@ -244,18 +241,15 @@
         <div class="footer--area">
             <div class="footer--item area1">
                 <div class="footer-social">
-                    <a href=""><img src="assets/images/twitter.png" /></a>
-                    <a href=""><img src="assets/images/linkedin.png" /></a>
-                    <a href=""><img src="assets/images/facebook.png" /></a>
-                    <a href=""><img src="assets/images/googleplus.png" /></a>
-                    <a href=""><img src="assets/images/pinterest.png" /></a>
+                    <a href="tel:+5561996721681"><img src="logo.png" /></a>
+                    
                 </div>
+                Site criado por Jhony Santos
             </div>
             <div class="footer--item area2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a
-                nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus
-                quam, sed pellentesque quam. Vestibulum porta aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt
-                cursus elit vitae euismod.
+                Compromisso e respeito pelos colaboradores, parceiro, clientes e pelo meio ambiente, sempre
+                            colocando a vida em primeiro lugar,
+                            valorizando quem faz a empresa para que possamos cresce e evoluir juntos.
             </div>
             <div class="footer--item area3">
                 <form method="POST">
@@ -263,8 +257,29 @@
                     <button class="button">Subscribe</button>
                 </form>
             </div>
+            
         </div>
+       
     </footer>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu-opener").addEventListener("click", function(){
+                if(document.querySelector("nav").style.display == 'flex'){
+                    document.querySelector("nav").style.display = 'none';
+                }else{
+                    document.querySelector("nav").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('resize', function () {
+        var largura = window.innerWidth;
+
+        if (largura > 600)
+           document.querySelector("nav").removeAttribute('style');
+        });
+    </script>
 
     <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
